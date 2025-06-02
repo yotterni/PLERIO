@@ -41,7 +41,7 @@ model = PretrainedProteinModel(
 )
 
 ```
-Now you are invited to pass your RNA sequence to our model and get predictions for each of the 200 nucleotide bins of this RNA. If the RNA is shorter than 200 nt, the output will contain only one bin. Note that we use the `AUGC` alphabet, i.e. sequences containing T instead of U will be processed incorrectly. Also note that the model expects the sequence to be expressed from the '+' strand of the DNA, so you may want to process your RNA with `reverse_complement` from the `Bio` package or similar.
+Now you are invited to pass your RNA sequence to our model and get predictions for each of the 200 nucleotide bins of this RNA. If the RNA is shorter than 200 nt, the output will contain only one bin. Note that we use the `AUGC` alphabet, i.e. sequences containing T instead of U will be processed incorrectly. Also note that the model expects the sequence to be expressed from the `+` strand of the DNA, so you may want to process your RNA with `reverse_complement` from the `Bio` package or similar.
 
 ```python
 model(rna_sequence) # plot_result=False if you dont want to plot sequence heatmap.
