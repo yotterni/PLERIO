@@ -13,8 +13,6 @@ The study of protein-RNA interactions (RPIs) is critical for understanding many 
 
 ## Installation
 ```bash
-mkdir plerio_dir
-cd perio_dir
 git clone https://github.com/Yotterni/PLERIO.git
 pip install -e PLERIO
 ```
