@@ -1,7 +1,0 @@
-README.md
-pyproject.toml
-setup.py
-plerio.egg-info/PKG-INFO
-plerio.egg-info/SOURCES.txt
-plerio.egg-info/dependency_links.txt
-plerio.egg-info/top_level.txt
